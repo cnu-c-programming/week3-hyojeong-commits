@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int average(int count, ...){
-    va_list ac;
-    va_start(ac, count);
+    va_list ap;
+    va_start(ap, count);
     int sum = ;
     for(int i = 0; i < count; i++)
-        sum += va_arg(ac, int);
+        sum += va_arg(ap, int);
     va_end(ap);
     return sum/count;
 }
