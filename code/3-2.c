@@ -16,7 +16,7 @@ void test_scope() {
 
 int main() {
 
-    test_scoepe();
+    test_scope();
     printf("\n");
     test_scope();
     printf("\n");
