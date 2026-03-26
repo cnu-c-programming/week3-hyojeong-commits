@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int call_out() {
-    static int a = 1; 
+    static int count = 1; 
     return ++count;
 }
 int main() {
