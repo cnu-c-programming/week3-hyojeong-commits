@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int call_out() {
+int call_count() {
     static int count = 1; 
     return ++count;
 }
