@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdarg.h>
 
 int average(int count, ...){
     va_list ap;
     va_start(ap, count);
-    int sum = ;
+    int sum = 0 ;
     for(int i = 0; i < count; i++)
         sum += va_arg(ap, int);
     va_end(ap);
